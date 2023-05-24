@@ -7,9 +7,9 @@
 
 import UIKit
 
-class demoViewController: UIViewController {
+class DemoViewController: UIViewController {
+    
     
     @IBAction func backToLoginButton() {
     }
-    
 }

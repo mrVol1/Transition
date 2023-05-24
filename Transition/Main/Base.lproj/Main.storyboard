@@ -16,15 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-gu-sST">
-                                <rect key="frame" x="159" y="711" width="75" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz0-gu-sST">
+                                <rect key="frame" x="163.66666666666666" y="711" width="65.666666666666657" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                 <connections>
                                     <action selector="loginButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kgo-4x-6gB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvl-yY-wL9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvl-yY-wL9">
                                 <rect key="frame" x="81" y="754" width="231" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Agree Terms and Condition"/>
@@ -38,17 +38,17 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Demo Mode Open"/>
                                 <connections>
-                                    <action selector="demoModeOpenButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="dbl-YT-vui"/>
+                                    <action selector="demoModeOpenButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQJ-Z9-SiE"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mvl-yY-wL9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.587786" id="1YB-L5-BUR"/>
-                            <constraint firstItem="Uz0-gu-sST" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1lQ-17-AzH"/>
-                            <constraint firstItem="Uz0-gu-sST" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.19084" id="FCK-B0-3Vx"/>
-                            <constraint firstItem="mvl-yY-wL9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hTT-v1-T8l"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mvl-yY-wL9" secondAttribute="bottom" constant="29" id="2xz-Hs-sG7"/>
+                            <constraint firstItem="mvl-yY-wL9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7Wm-pH-alf"/>
+                            <constraint firstItem="Uz0-gu-sST" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zid-P5-oyy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uz0-gu-sST" secondAttribute="bottom" constant="72" id="qUB-Ta-02P"/>
                         </constraints>
                     </view>
                 </viewController>
